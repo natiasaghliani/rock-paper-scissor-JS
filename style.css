@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #fff;
+  user-select: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+.game {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.score {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.p-count,
+.c-count {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.move {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.movesleft {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.reload {
+  display: none;
+  margin-top: 40px;
+  padding: 16px;
+  background: rgb(2, 26, 208);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reload:hover {
+  background: rgb(11, 40, 254);
+}
+
+.result {
+  font-size: 20px;
+}
+
+.sides {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.left-side {
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rock,
+.paper,
+.scissor {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background: rgb(2, 26, 208);
+  border: none;
+  cursor: pointer;
+}
+.rock:hover,
+.paper:hover,
+.scissor:hover {
+  padding: 7px;
+}
+
+.this-result {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.computer-choice {
+  margin-top: 130px;
+}
